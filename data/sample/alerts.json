@@ -1,0 +1,2452 @@
+{
+  "alerts": [
+    {
+      "id": "1",
+      "summary": "Alert 1 for Alice Chen",
+      "severity": "info",
+      "status": "triggered",
+      "created_at": "2026-08-07T03:07:02.697095Z",
+      "acknowledged_at": "2026-08-07T03:34:42.905547Z",
+      "resolved_at": "2026-08-07T03:55:59.373710Z",
+      "assignee": {
+        "id": "P1000",
+        "name": "Alice Chen",
+        "email": "alice.chen@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "2",
+      "summary": "Alert 2 for Alice Chen",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-07-31T16:14:57.404819Z",
+      "acknowledged_at": "2026-07-31T16:43:24.055571Z",
+      "resolved_at": "2026-07-31T17:48:59.400472Z",
+      "assignee": {
+        "id": "P1000",
+        "name": "Alice Chen",
+        "email": "alice.chen@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "3",
+      "summary": "Alert 3 for Alice Chen",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-06T09:30:45.104365Z",
+      "acknowledged_at": "2026-08-06T10:04:20.572314Z",
+      "resolved_at": "2026-08-06T11:43:22.813328Z",
+      "assignee": {
+        "id": "P1000",
+        "name": "Alice Chen",
+        "email": "alice.chen@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "4",
+      "summary": "Alert 4 for Alice Chen",
+      "severity": "medium",
+      "status": "acknowledged",
+      "created_at": "2026-08-09T23:46:32.350851Z",
+      "acknowledged_at": "2026-08-10T00:13:12.663493Z",
+      "resolved_at": "2026-08-10T02:08:30.269770Z",
+      "assignee": {
+        "id": "P1000",
+        "name": "Alice Chen",
+        "email": "alice.chen@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "5",
+      "summary": "Alert 5 for Alice Chen",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-10T13:15:37.566252Z",
+      "acknowledged_at": "2026-08-10T13:44:42.759753Z",
+      "resolved_at": "2026-08-10T14:23:48.597477Z",
+      "assignee": {
+        "id": "P1000",
+        "name": "Alice Chen",
+        "email": "alice.chen@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "6",
+      "summary": "Alert 6 for Alice Chen",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-28T23:26:19.072271Z",
+      "acknowledged_at": "2026-08-28T23:55:30.638820Z",
+      "resolved_at": "2026-08-29T01:06:14.106986Z",
+      "assignee": {
+        "id": "P1000",
+        "name": "Alice Chen",
+        "email": "alice.chen@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "7",
+      "summary": "Alert 7 for Alice Chen",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-05T13:14:35.037981Z",
+      "acknowledged_at": "2026-08-05T13:38:43.775483Z",
+      "resolved_at": "2026-08-05T15:01:28.113386Z",
+      "assignee": {
+        "id": "P1000",
+        "name": "Alice Chen",
+        "email": "alice.chen@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "8",
+      "summary": "Alert 8 for Alice Chen",
+      "severity": "high",
+      "status": "acknowledged",
+      "created_at": "2026-08-11T04:29:10.187338Z",
+      "acknowledged_at": "2026-08-11T04:58:39.646737Z",
+      "resolved_at": "2026-08-11T06:40:24.775553Z",
+      "assignee": {
+        "id": "P1000",
+        "name": "Alice Chen",
+        "email": "alice.chen@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "9",
+      "summary": "Alert 9 for Alice Chen",
+      "severity": "high",
+      "status": "resolved",
+      "created_at": "2026-08-20T20:06:21.264521Z",
+      "acknowledged_at": "2026-08-20T20:38:53.099805Z",
+      "resolved_at": "2026-08-20T20:56:44.356368Z",
+      "assignee": {
+        "id": "P1000",
+        "name": "Alice Chen",
+        "email": "alice.chen@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "10",
+      "summary": "Alert 10 for Alice Chen",
+      "severity": "info",
+      "status": "acknowledged",
+      "created_at": "2026-08-13T15:37:21.481154Z",
+      "acknowledged_at": "2026-08-13T16:03:16.328842Z",
+      "resolved_at": "2026-08-13T17:55:03.910628Z",
+      "assignee": {
+        "id": "P1000",
+        "name": "Alice Chen",
+        "email": "alice.chen@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "11",
+      "summary": "Alert 11 for Alice Chen",
+      "severity": "medium",
+      "status": "triggered",
+      "created_at": "2026-08-06T15:42:35.614567Z",
+      "acknowledged_at": "2026-08-06T16:04:31.651689Z",
+      "resolved_at": "2026-08-06T16:49:13.641806Z",
+      "assignee": {
+        "id": "P1000",
+        "name": "Alice Chen",
+        "email": "alice.chen@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "12",
+      "summary": "Alert 12 for Alice Chen",
+      "severity": "low",
+      "status": "acknowledged",
+      "created_at": "2026-08-06T03:53:11.014224Z",
+      "acknowledged_at": "2026-08-06T04:21:42.721518Z",
+      "resolved_at": "2026-08-06T06:09:01.630334Z",
+      "assignee": {
+        "id": "P1000",
+        "name": "Alice Chen",
+        "email": "alice.chen@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "13",
+      "summary": "Alert 13 for Alice Chen",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-22T03:11:14.453617Z",
+      "acknowledged_at": "2026-08-22T03:39:57.184597Z",
+      "resolved_at": "2026-08-22T05:12:07.475754Z",
+      "assignee": {
+        "id": "P1000",
+        "name": "Alice Chen",
+        "email": "alice.chen@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "14",
+      "summary": "Alert 14 for Bob Martinez",
+      "severity": "high",
+      "status": "resolved",
+      "created_at": "2026-08-14T14:07:36.056070Z",
+      "acknowledged_at": "2026-08-14T14:27:42.629834Z",
+      "resolved_at": "2026-08-14T16:12:25.909038Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "15",
+      "summary": "Alert 15 for Bob Martinez",
+      "severity": "info",
+      "status": "acknowledged",
+      "created_at": "2026-08-01T16:32:06.826382Z",
+      "acknowledged_at": "2026-08-01T16:49:36.136459Z",
+      "resolved_at": "2026-08-01T18:49:10.537569Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "16",
+      "summary": "Alert 16 for Bob Martinez",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-20T04:35:57.611421Z",
+      "acknowledged_at": "2026-08-20T04:52:26.043606Z",
+      "resolved_at": "2026-08-20T06:39:45.647377Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "17",
+      "summary": "Alert 17 for Bob Martinez",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-08T14:06:55.345490Z",
+      "acknowledged_at": "2026-08-08T14:27:02.505983Z",
+      "resolved_at": "2026-08-08T14:37:23.925069Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "18",
+      "summary": "Alert 18 for Bob Martinez",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-27T03:53:14.371618Z",
+      "acknowledged_at": "2026-08-27T04:27:02.139742Z",
+      "resolved_at": "2026-08-27T05:09:51.875366Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "19",
+      "summary": "Alert 19 for Bob Martinez",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-22T15:48:11.005831Z",
+      "acknowledged_at": "2026-08-22T16:20:00.231267Z",
+      "resolved_at": "2026-08-22T17:55:39.166026Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "20",
+      "summary": "Alert 20 for Bob Martinez",
+      "severity": "medium",
+      "status": "acknowledged",
+      "created_at": "2026-08-14T10:35:29.007247Z",
+      "acknowledged_at": "2026-08-14T11:03:52.955406Z",
+      "resolved_at": "2026-08-14T11:53:48.628469Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "21",
+      "summary": "Alert 21 for Bob Martinez",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-28T04:35:55.974248Z",
+      "acknowledged_at": "2026-08-28T05:06:55.812458Z",
+      "resolved_at": "2026-08-28T06:10:23.349516Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "22",
+      "summary": "Alert 22 for Bob Martinez",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-03T15:14:13.688019Z",
+      "acknowledged_at": "2026-08-03T15:54:03.675160Z",
+      "resolved_at": "2026-08-03T17:04:32.378877Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "23",
+      "summary": "Alert 23 for Bob Martinez",
+      "severity": "high",
+      "status": "resolved",
+      "created_at": "2026-08-28T17:08:11.664407Z",
+      "acknowledged_at": "2026-08-28T17:57:49.402449Z",
+      "resolved_at": "2026-08-28T19:30:54.152747Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "24",
+      "summary": "Alert 24 for Bob Martinez",
+      "severity": "high",
+      "status": "triggered",
+      "created_at": "2026-08-12T22:13:38.429542Z",
+      "acknowledged_at": "2026-08-12T23:00:05.446595Z",
+      "resolved_at": "2026-08-12T23:23:24.074288Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "25",
+      "summary": "Alert 25 for Bob Martinez",
+      "severity": "critical",
+      "status": "acknowledged",
+      "created_at": "2026-08-16T09:37:07.598160Z",
+      "acknowledged_at": "2026-08-16T10:27:37.875956Z",
+      "resolved_at": "2026-08-16T10:38:25.335493Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "26",
+      "summary": "Alert 26 for Bob Martinez",
+      "severity": "high",
+      "status": "resolved",
+      "created_at": "2026-08-01T21:48:45.262947Z",
+      "acknowledged_at": "2026-08-01T22:36:59.631708Z",
+      "resolved_at": "2026-08-02T00:00:34.885045Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "27",
+      "summary": "Alert 27 for Bob Martinez",
+      "severity": "high",
+      "status": "triggered",
+      "created_at": "2026-08-13T23:07:06.312236Z",
+      "acknowledged_at": "2026-08-14T00:06:32.117206Z",
+      "resolved_at": "2026-08-14T01:45:21.597391Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "28",
+      "summary": "Alert 28 for Bob Martinez",
+      "severity": "critical",
+      "status": "triggered",
+      "created_at": "2026-08-12T11:46:18.802904Z",
+      "acknowledged_at": "2026-08-12T12:43:58.255490Z",
+      "resolved_at": "2026-08-12T14:14:10.156096Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "29",
+      "summary": "Alert 29 for Bob Martinez",
+      "severity": "low",
+      "status": "acknowledged",
+      "created_at": "2026-08-07T05:49:40.229557Z",
+      "acknowledged_at": "2026-08-07T06:46:10.030857Z",
+      "resolved_at": "2026-08-07T07:45:30.880273Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "30",
+      "summary": "Alert 30 for Bob Martinez",
+      "severity": "info",
+      "status": "triggered",
+      "created_at": "2026-08-26T00:25:30.604987Z",
+      "acknowledged_at": "2026-08-26T01:23:16.547566Z",
+      "resolved_at": "2026-08-26T03:02:09.494381Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "31",
+      "summary": "Alert 31 for Bob Martinez",
+      "severity": "high",
+      "status": "resolved",
+      "created_at": "2026-08-28T20:28:21.310918Z",
+      "acknowledged_at": "2026-08-28T21:41:52.620280Z",
+      "resolved_at": "2026-08-28T23:25:14.012127Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "32",
+      "summary": "Alert 32 for Bob Martinez",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-25T17:20:36.833362Z",
+      "acknowledged_at": "2026-08-25T18:36:46.093915Z",
+      "resolved_at": "2026-08-25T19:04:52.698916Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "33",
+      "summary": "Alert 33 for Bob Martinez",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-08T08:10:29.013466Z",
+      "acknowledged_at": "2026-08-08T09:26:32.490691Z",
+      "resolved_at": "2026-08-08T10:56:53.825786Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "34",
+      "summary": "Alert 34 for Bob Martinez",
+      "severity": "info",
+      "status": "triggered",
+      "created_at": "2026-08-05T11:31:18.283994Z",
+      "acknowledged_at": "2026-08-05T12:43:10.242572Z",
+      "resolved_at": "2026-08-05T12:59:36.232299Z",
+      "assignee": {
+        "id": "P1001",
+        "name": "Bob Martinez",
+        "email": "bob.martinez@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "35",
+      "summary": "Alert 35 for Carol Singh",
+      "severity": "high",
+      "status": "triggered",
+      "created_at": "2026-08-04T12:08:48.642855Z",
+      "acknowledged_at": "2026-08-04T12:25:13.685477Z",
+      "resolved_at": "2026-08-04T12:44:02.421148Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "36",
+      "summary": "Alert 36 for Carol Singh",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-11T21:30:49.241053Z",
+      "acknowledged_at": "2026-08-11T21:48:07.144766Z",
+      "resolved_at": "2026-08-11T23:00:47.002473Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "37",
+      "summary": "Alert 37 for Carol Singh",
+      "severity": "medium",
+      "status": "acknowledged",
+      "created_at": "2026-08-12T08:38:13.992587Z",
+      "acknowledged_at": "2026-08-12T08:51:19.890434Z",
+      "resolved_at": "2026-08-12T09:58:50.256357Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "38",
+      "summary": "Alert 38 for Carol Singh",
+      "severity": "low",
+      "status": "acknowledged",
+      "created_at": "2026-08-07T18:02:15.828517Z",
+      "acknowledged_at": "2026-08-07T18:09:44.337346Z",
+      "resolved_at": "2026-08-07T19:30:44.642552Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "39",
+      "summary": "Alert 39 for Carol Singh",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-13T12:45:39.086663Z",
+      "acknowledged_at": "2026-08-13T13:07:18.539624Z",
+      "resolved_at": "2026-08-13T15:06:52.776180Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "40",
+      "summary": "Alert 40 for Carol Singh",
+      "severity": "high",
+      "status": "acknowledged",
+      "created_at": "2026-08-03T18:09:50.442426Z",
+      "acknowledged_at": "2026-08-03T18:22:55.519930Z",
+      "resolved_at": "2026-08-03T18:40:29.542603Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "41",
+      "summary": "Alert 41 for Carol Singh",
+      "severity": "info",
+      "status": "triggered",
+      "created_at": "2026-08-24T19:05:29.934462Z",
+      "acknowledged_at": "2026-08-24T19:25:04.215536Z",
+      "resolved_at": "2026-08-24T20:42:21.288790Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "42",
+      "summary": "Alert 42 for Carol Singh",
+      "severity": "medium",
+      "status": "acknowledged",
+      "created_at": "2026-08-27T17:39:34.666254Z",
+      "acknowledged_at": "2026-08-27T17:51:19.114835Z",
+      "resolved_at": "2026-08-27T19:37:54.752804Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "43",
+      "summary": "Alert 43 for Carol Singh",
+      "severity": "medium",
+      "status": "acknowledged",
+      "created_at": "2026-08-04T10:43:03.994173Z",
+      "acknowledged_at": "2026-08-04T10:58:38.921135Z",
+      "resolved_at": "2026-08-04T11:31:49.076857Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "44",
+      "summary": "Alert 44 for Carol Singh",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-14T10:32:17.572807Z",
+      "acknowledged_at": "2026-08-14T10:58:23.847556Z",
+      "resolved_at": "2026-08-14T12:41:28.132064Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "45",
+      "summary": "Alert 45 for Carol Singh",
+      "severity": "medium",
+      "status": "acknowledged",
+      "created_at": "2026-07-30T21:20:53.438152Z",
+      "acknowledged_at": "2026-07-30T21:46:09.042948Z",
+      "resolved_at": "2026-07-30T23:06:13.991238Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "46",
+      "summary": "Alert 46 for Carol Singh",
+      "severity": "high",
+      "status": "resolved",
+      "created_at": "2026-08-20T22:52:33.034038Z",
+      "acknowledged_at": "2026-08-20T23:15:49.573300Z",
+      "resolved_at": "2026-08-20T23:38:07.940912Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "47",
+      "summary": "Alert 47 for Carol Singh",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-16T08:36:48.062799Z",
+      "acknowledged_at": "2026-08-16T08:59:16.719513Z",
+      "resolved_at": "2026-08-16T09:13:52.789977Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "48",
+      "summary": "Alert 48 for Carol Singh",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-06T02:03:01.399413Z",
+      "acknowledged_at": "2026-08-06T02:23:57.950439Z",
+      "resolved_at": "2026-08-06T02:45:16.388342Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "49",
+      "summary": "Alert 49 for Carol Singh",
+      "severity": "high",
+      "status": "resolved",
+      "created_at": "2026-08-22T06:25:08.980120Z",
+      "acknowledged_at": "2026-08-22T06:57:24.267410Z",
+      "resolved_at": "2026-08-22T07:33:26.733803Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "50",
+      "summary": "Alert 50 for Carol Singh",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-07-31T12:38:29.262076Z",
+      "acknowledged_at": "2026-07-31T13:09:04.395539Z",
+      "resolved_at": "2026-07-31T13:55:36.819627Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "51",
+      "summary": "Alert 51 for Carol Singh",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-04T13:25:03.821042Z",
+      "acknowledged_at": "2026-08-04T13:56:17.322438Z",
+      "resolved_at": "2026-08-04T14:48:22.097807Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "52",
+      "summary": "Alert 52 for Carol Singh",
+      "severity": "high",
+      "status": "acknowledged",
+      "created_at": "2026-08-24T06:44:15.493743Z",
+      "acknowledged_at": "2026-08-24T07:13:02.243270Z",
+      "resolved_at": "2026-08-24T07:56:36.502994Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "53",
+      "summary": "Alert 53 for Carol Singh",
+      "severity": "medium",
+      "status": "acknowledged",
+      "created_at": "2026-08-09T15:08:37.989540Z",
+      "acknowledged_at": "2026-08-09T15:44:38.509392Z",
+      "resolved_at": "2026-08-09T17:40:59.977479Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "54",
+      "summary": "Alert 54 for Carol Singh",
+      "severity": "critical",
+      "status": "acknowledged",
+      "created_at": "2026-08-20T04:02:53.974826Z",
+      "acknowledged_at": "2026-08-20T04:39:45.997666Z",
+      "resolved_at": "2026-08-20T05:26:11.586796Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "55",
+      "summary": "Alert 55 for Carol Singh",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-17T04:49:11.601887Z",
+      "acknowledged_at": "2026-08-17T05:29:19.650784Z",
+      "resolved_at": "2026-08-17T05:43:32.148287Z",
+      "assignee": {
+        "id": "P1002",
+        "name": "Carol Singh",
+        "email": "carol.singh@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "56",
+      "summary": "Alert 56 for David Kim",
+      "severity": "low",
+      "status": "triggered",
+      "created_at": "2026-08-26T18:26:19.279742Z",
+      "acknowledged_at": "2026-08-26T18:53:25.251887Z",
+      "resolved_at": "2026-08-26T19:08:18.203010Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "57",
+      "summary": "Alert 57 for David Kim",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-10T17:02:05.066893Z",
+      "acknowledged_at": "2026-08-10T17:28:40.343413Z",
+      "resolved_at": "2026-08-10T18:51:44.312133Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "58",
+      "summary": "Alert 58 for David Kim",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-14T23:55:24.542495Z",
+      "acknowledged_at": "2026-08-15T00:32:14.445042Z",
+      "resolved_at": "2026-08-15T01:18:07.252214Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "59",
+      "summary": "Alert 59 for David Kim",
+      "severity": "high",
+      "status": "resolved",
+      "created_at": "2026-08-19T17:32:40.105516Z",
+      "acknowledged_at": "2026-08-19T18:06:28.434041Z",
+      "resolved_at": "2026-08-19T19:38:46.122138Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "60",
+      "summary": "Alert 60 for David Kim",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-16T05:18:36.268484Z",
+      "acknowledged_at": "2026-08-16T05:48:01.130448Z",
+      "resolved_at": "2026-08-16T06:29:34.760979Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "61",
+      "summary": "Alert 61 for David Kim",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-13T17:35:12.401156Z",
+      "acknowledged_at": "2026-08-13T18:12:32.240436Z",
+      "resolved_at": "2026-08-13T18:46:02.669683Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "62",
+      "summary": "Alert 62 for David Kim",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-08T07:07:17.373778Z",
+      "acknowledged_at": "2026-08-08T07:49:14.136534Z",
+      "resolved_at": "2026-08-08T09:07:21.257849Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "63",
+      "summary": "Alert 63 for David Kim",
+      "severity": "high",
+      "status": "resolved",
+      "created_at": "2026-08-06T12:32:11.618301Z",
+      "acknowledged_at": "2026-08-06T13:08:27.528386Z",
+      "resolved_at": "2026-08-06T13:21:08.735945Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "64",
+      "summary": "Alert 64 for David Kim",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-13T10:41:41.720477Z",
+      "acknowledged_at": "2026-08-13T11:29:33.335683Z",
+      "resolved_at": "2026-08-13T12:42:52.763619Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "65",
+      "summary": "Alert 65 for David Kim",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-19T11:09:25.376838Z",
+      "acknowledged_at": "2026-08-19T11:45:21.858005Z",
+      "resolved_at": "2026-08-19T13:17:58.223551Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "66",
+      "summary": "Alert 66 for David Kim",
+      "severity": "info",
+      "status": "acknowledged",
+      "created_at": "2026-08-23T21:45:15.759237Z",
+      "acknowledged_at": "2026-08-23T22:32:50.969509Z",
+      "resolved_at": "2026-08-23T23:33:56.998747Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "67",
+      "summary": "Alert 67 for David Kim",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-03T18:47:57.973640Z",
+      "acknowledged_at": "2026-08-03T19:33:22.441070Z",
+      "resolved_at": "2026-08-03T20:41:47.911517Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "68",
+      "summary": "Alert 68 for David Kim",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-24T05:35:59.879040Z",
+      "acknowledged_at": "2026-08-24T06:29:06.384665Z",
+      "resolved_at": "2026-08-24T07:26:02.873660Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "69",
+      "summary": "Alert 69 for David Kim",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-13T06:50:43.822820Z",
+      "acknowledged_at": "2026-08-13T07:43:01.508129Z",
+      "resolved_at": "2026-08-13T09:25:24.603189Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "70",
+      "summary": "Alert 70 for David Kim",
+      "severity": "medium",
+      "status": "acknowledged",
+      "created_at": "2026-08-18T14:03:14.960693Z",
+      "acknowledged_at": "2026-08-18T14:49:40.583439Z",
+      "resolved_at": "2026-08-18T15:08:11.973575Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "71",
+      "summary": "Alert 71 for David Kim",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-26T13:46:28.562629Z",
+      "acknowledged_at": "2026-08-26T14:31:16.966407Z",
+      "resolved_at": "2026-08-26T14:57:52.448750Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "72",
+      "summary": "Alert 72 for David Kim",
+      "severity": "critical",
+      "status": "acknowledged",
+      "created_at": "2026-08-12T05:30:00.598204Z",
+      "acknowledged_at": "2026-08-12T06:19:51.674184Z",
+      "resolved_at": "2026-08-12T07:21:06.774586Z",
+      "assignee": {
+        "id": "P1003",
+        "name": "David Kim",
+        "email": "david.kim@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "73",
+      "summary": "Alert 73 for Eva Rodriguez",
+      "severity": "low",
+      "status": "triggered",
+      "created_at": "2026-07-31T08:51:29.843900Z",
+      "acknowledged_at": "2026-07-31T09:40:54.047253Z",
+      "resolved_at": "2026-07-31T10:54:13.603542Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "74",
+      "summary": "Alert 74 for Eva Rodriguez",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-22T09:17:50.536190Z",
+      "acknowledged_at": "2026-08-22T10:08:22.908371Z",
+      "resolved_at": "2026-08-22T12:03:15.548605Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "75",
+      "summary": "Alert 75 for Eva Rodriguez",
+      "severity": "low",
+      "status": "triggered",
+      "created_at": "2026-08-26T17:13:10.024495Z",
+      "acknowledged_at": "2026-08-26T17:59:46.356727Z",
+      "resolved_at": "2026-08-26T18:39:47.729785Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "76",
+      "summary": "Alert 76 for Eva Rodriguez",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-21T12:12:21.142846Z",
+      "acknowledged_at": "2026-08-21T13:05:47.180322Z",
+      "resolved_at": "2026-08-21T14:56:56.155018Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "77",
+      "summary": "Alert 77 for Eva Rodriguez",
+      "severity": "high",
+      "status": "resolved",
+      "created_at": "2026-08-16T17:09:27.032036Z",
+      "acknowledged_at": "2026-08-16T17:52:13.662934Z",
+      "resolved_at": "2026-08-16T19:12:55.810611Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "78",
+      "summary": "Alert 78 for Eva Rodriguez",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-07T14:06:28.177715Z",
+      "acknowledged_at": "2026-08-07T14:55:17.690848Z",
+      "resolved_at": "2026-08-07T15:55:18.706393Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "79",
+      "summary": "Alert 79 for Eva Rodriguez",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-22T08:14:32.474690Z",
+      "acknowledged_at": "2026-08-22T09:12:28.758957Z",
+      "resolved_at": "2026-08-22T09:50:13.751067Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "80",
+      "summary": "Alert 80 for Eva Rodriguez",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-29T18:43:44.103532Z",
+      "acknowledged_at": "2026-08-29T19:35:59.276928Z",
+      "resolved_at": "2026-08-29T20:57:30.227943Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "81",
+      "summary": "Alert 81 for Eva Rodriguez",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-24T23:02:24.181606Z",
+      "acknowledged_at": "2026-08-25T00:00:16.249461Z",
+      "resolved_at": "2026-08-25T00:36:30.646077Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "82",
+      "summary": "Alert 82 for Eva Rodriguez",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-13T17:37:11.097100Z",
+      "acknowledged_at": "2026-08-13T18:31:07.238868Z",
+      "resolved_at": "2026-08-13T19:21:41.947019Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "83",
+      "summary": "Alert 83 for Eva Rodriguez",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-28T17:23:39.255740Z",
+      "acknowledged_at": "2026-08-28T18:16:54.723733Z",
+      "resolved_at": "2026-08-28T18:29:44.201341Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "84",
+      "summary": "Alert 84 for Eva Rodriguez",
+      "severity": "high",
+      "status": "acknowledged",
+      "created_at": "2026-08-28T00:39:14.803455Z",
+      "acknowledged_at": "2026-08-28T01:35:24.136049Z",
+      "resolved_at": "2026-08-28T02:50:31.981933Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "85",
+      "summary": "Alert 85 for Eva Rodriguez",
+      "severity": "critical",
+      "status": "acknowledged",
+      "created_at": "2026-08-23T22:46:31.493807Z",
+      "acknowledged_at": "2026-08-23T23:53:11.590774Z",
+      "resolved_at": "2026-08-24T01:05:26.745639Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "86",
+      "summary": "Alert 86 for Eva Rodriguez",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-01T20:26:38.873095Z",
+      "acknowledged_at": "2026-08-01T21:32:37.811172Z",
+      "resolved_at": "2026-08-01T21:44:01.315363Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "87",
+      "summary": "Alert 87 for Eva Rodriguez",
+      "severity": "high",
+      "status": "resolved",
+      "created_at": "2026-08-28T14:33:44.386256Z",
+      "acknowledged_at": "2026-08-28T15:41:05.218677Z",
+      "resolved_at": "2026-08-28T17:22:14.686930Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "88",
+      "summary": "Alert 88 for Eva Rodriguez",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-18T06:15:07.833743Z",
+      "acknowledged_at": "2026-08-18T07:28:16.952137Z",
+      "resolved_at": "2026-08-18T09:03:29.585709Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "89",
+      "summary": "Alert 89 for Eva Rodriguez",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-09T10:51:16.491123Z",
+      "acknowledged_at": "2026-08-09T11:55:51.555955Z",
+      "resolved_at": "2026-08-09T13:48:40.060354Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "90",
+      "summary": "Alert 90 for Eva Rodriguez",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-16T21:05:13.291042Z",
+      "acknowledged_at": "2026-08-16T22:17:41.436522Z",
+      "resolved_at": "2026-08-16T23:04:41.654213Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "91",
+      "summary": "Alert 91 for Eva Rodriguez",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-06T03:31:17.663702Z",
+      "acknowledged_at": "2026-08-06T04:47:15.145357Z",
+      "resolved_at": "2026-08-06T05:34:41.381722Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "92",
+      "summary": "Alert 92 for Eva Rodriguez",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-07-31T02:06:14.700661Z",
+      "acknowledged_at": "2026-07-31T03:26:00.046192Z",
+      "resolved_at": "2026-07-31T03:45:25.091741Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "93",
+      "summary": "Alert 93 for Eva Rodriguez",
+      "severity": "critical",
+      "status": "acknowledged",
+      "created_at": "2026-08-19T03:50:43.328165Z",
+      "acknowledged_at": "2026-08-19T05:05:09.813254Z",
+      "resolved_at": "2026-08-19T06:42:23.170184Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "94",
+      "summary": "Alert 94 for Eva Rodriguez",
+      "severity": "info",
+      "status": "acknowledged",
+      "created_at": "2026-08-08T23:15:49.042133Z",
+      "acknowledged_at": "2026-08-09T00:33:09.844724Z",
+      "resolved_at": "2026-08-09T01:35:13.363950Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "95",
+      "summary": "Alert 95 for Eva Rodriguez",
+      "severity": "high",
+      "status": "acknowledged",
+      "created_at": "2026-08-10T08:05:55.899612Z",
+      "acknowledged_at": "2026-08-10T09:22:54.329590Z",
+      "resolved_at": "2026-08-10T10:06:38.041333Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "96",
+      "summary": "Alert 96 for Eva Rodriguez",
+      "severity": "high",
+      "status": "acknowledged",
+      "created_at": "2026-08-03T08:52:28.901369Z",
+      "acknowledged_at": "2026-08-03T10:12:13.894856Z",
+      "resolved_at": "2026-08-03T11:46:04.346279Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "97",
+      "summary": "Alert 97 for Eva Rodriguez",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-21T12:29:47.334869Z",
+      "acknowledged_at": "2026-08-21T13:57:41.653785Z",
+      "resolved_at": "2026-08-21T15:05:24.257121Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "98",
+      "summary": "Alert 98 for Eva Rodriguez",
+      "severity": "info",
+      "status": "acknowledged",
+      "created_at": "2026-08-06T14:34:59.371783Z",
+      "acknowledged_at": "2026-08-06T15:52:28.898445Z",
+      "resolved_at": "2026-08-06T16:04:02.277669Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "99",
+      "summary": "Alert 99 for Eva Rodriguez",
+      "severity": "low",
+      "status": "acknowledged",
+      "created_at": "2026-08-16T09:12:49.453978Z",
+      "acknowledged_at": "2026-08-16T10:39:37.815581Z",
+      "resolved_at": "2026-08-16T11:03:31.260235Z",
+      "assignee": {
+        "id": "P1004",
+        "name": "Eva Rodriguez",
+        "email": "eva.rodriguez@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "100",
+      "summary": "Alert 100 for Frank Thompson",
+      "severity": "low",
+      "status": "acknowledged",
+      "created_at": "2026-08-05T07:32:13.645687Z",
+      "acknowledged_at": "2026-08-05T07:44:22.299118Z",
+      "resolved_at": "2026-08-05T09:37:53.318857Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "101",
+      "summary": "Alert 101 for Frank Thompson",
+      "severity": "high",
+      "status": "acknowledged",
+      "created_at": "2026-08-14T12:51:10.096310Z",
+      "acknowledged_at": "2026-08-14T13:12:22.359720Z",
+      "resolved_at": "2026-08-14T14:37:52.936440Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "102",
+      "summary": "Alert 102 for Frank Thompson",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-02T08:07:31.926599Z",
+      "acknowledged_at": "2026-08-02T08:24:58.772811Z",
+      "resolved_at": "2026-08-02T09:36:22.054839Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "103",
+      "summary": "Alert 103 for Frank Thompson",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-23T01:17:40.666934Z",
+      "acknowledged_at": "2026-08-23T01:38:17.011494Z",
+      "resolved_at": "2026-08-23T03:28:13.140386Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "104",
+      "summary": "Alert 104 for Frank Thompson",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-16T20:12:30.599894Z",
+      "acknowledged_at": "2026-08-16T20:29:29.341488Z",
+      "resolved_at": "2026-08-16T22:25:06.059419Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "105",
+      "summary": "Alert 105 for Frank Thompson",
+      "severity": "info",
+      "status": "triggered",
+      "created_at": "2026-08-07T17:20:25.768788Z",
+      "acknowledged_at": "2026-08-07T17:38:53.901811Z",
+      "resolved_at": "2026-08-07T18:15:17.011984Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "106",
+      "summary": "Alert 106 for Frank Thompson",
+      "severity": "high",
+      "status": "acknowledged",
+      "created_at": "2026-08-13T07:09:28.614405Z",
+      "acknowledged_at": "2026-08-13T07:36:48.638769Z",
+      "resolved_at": "2026-08-13T08:18:50.950077Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "107",
+      "summary": "Alert 107 for Frank Thompson",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-01T22:02:40.950354Z",
+      "acknowledged_at": "2026-08-01T22:25:47.156051Z",
+      "resolved_at": "2026-08-01T23:04:53.216580Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "108",
+      "summary": "Alert 108 for Frank Thompson",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-03T05:26:03.188015Z",
+      "acknowledged_at": "2026-08-03T05:50:12.170776Z",
+      "resolved_at": "2026-08-03T06:16:35.500823Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "109",
+      "summary": "Alert 109 for Frank Thompson",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-04T18:15:34.881696Z",
+      "acknowledged_at": "2026-08-04T18:42:08.916567Z",
+      "resolved_at": "2026-08-04T20:14:32.037533Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "110",
+      "summary": "Alert 110 for Frank Thompson",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-13T20:15:28.150992Z",
+      "acknowledged_at": "2026-08-13T20:43:09.547287Z",
+      "resolved_at": "2026-08-13T21:37:26.103513Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "111",
+      "summary": "Alert 111 for Frank Thompson",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-02T04:42:48.292159Z",
+      "acknowledged_at": "2026-08-02T05:07:42.411072Z",
+      "resolved_at": "2026-08-02T06:05:13.800255Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "112",
+      "summary": "Alert 112 for Frank Thompson",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-06T15:37:15.097587Z",
+      "acknowledged_at": "2026-08-06T16:12:50.740308Z",
+      "resolved_at": "2026-08-06T17:57:30.151669Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "113",
+      "summary": "Alert 113 for Frank Thompson",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-07-31T23:45:43.508827Z",
+      "acknowledged_at": "2026-08-01T00:23:43.454949Z",
+      "resolved_at": "2026-08-01T01:25:28.760382Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "114",
+      "summary": "Alert 114 for Frank Thompson",
+      "severity": "low",
+      "status": "acknowledged",
+      "created_at": "2026-08-12T20:37:56.898540Z",
+      "acknowledged_at": "2026-08-12T21:17:59.553149Z",
+      "resolved_at": "2026-08-12T23:14:35.317707Z",
+      "assignee": {
+        "id": "P1005",
+        "name": "Frank Thompson",
+        "email": "frank.thompson@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "115",
+      "summary": "Alert 115 for Grace Lee",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-12T03:10:47.084766Z",
+      "acknowledged_at": "2026-08-12T03:45:01.327308Z",
+      "resolved_at": "2026-08-12T05:07:54.378652Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S5",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "116",
+      "summary": "Alert 116 for Grace Lee",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-13T10:16:11.767132Z",
+      "acknowledged_at": "2026-08-13T10:50:13.276946Z",
+      "resolved_at": "2026-08-13T11:35:46.883935Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "117",
+      "summary": "Alert 117 for Grace Lee",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-13T15:25:05.698230Z",
+      "acknowledged_at": "2026-08-13T15:57:43.050229Z",
+      "resolved_at": "2026-08-13T17:04:44.750219Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "118",
+      "summary": "Alert 118 for Grace Lee",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-05T21:21:25.965840Z",
+      "acknowledged_at": "2026-08-05T22:03:58.955787Z",
+      "resolved_at": "2026-08-05T23:56:01.596009Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "119",
+      "summary": "Alert 119 for Grace Lee",
+      "severity": "high",
+      "status": "acknowledged",
+      "created_at": "2026-07-31T15:34:52.606845Z",
+      "acknowledged_at": "2026-07-31T16:21:08.443116Z",
+      "resolved_at": "2026-07-31T17:59:03.913756Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "120",
+      "summary": "Alert 120 for Grace Lee",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-12T00:32:54.873491Z",
+      "acknowledged_at": "2026-08-12T01:15:36.044256Z",
+      "resolved_at": "2026-08-12T02:58:09.321755Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "121",
+      "summary": "Alert 121 for Grace Lee",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-14T17:37:32.320237Z",
+      "acknowledged_at": "2026-08-14T18:30:06.327352Z",
+      "resolved_at": "2026-08-14T19:36:04.882651Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "122",
+      "summary": "Alert 122 for Grace Lee",
+      "severity": "info",
+      "status": "resolved",
+      "created_at": "2026-08-07T02:16:53.520583Z",
+      "acknowledged_at": "2026-08-07T03:09:28.847224Z",
+      "resolved_at": "2026-08-07T04:01:40.514911Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "123",
+      "summary": "Alert 123 for Grace Lee",
+      "severity": "info",
+      "status": "acknowledged",
+      "created_at": "2026-08-08T01:41:36.280151Z",
+      "acknowledged_at": "2026-08-08T02:40:16.597736Z",
+      "resolved_at": "2026-08-08T03:35:55.217731Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "124",
+      "summary": "Alert 124 for Grace Lee",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-21T13:33:07.158970Z",
+      "acknowledged_at": "2026-08-21T14:35:00.323272Z",
+      "resolved_at": "2026-08-21T15:48:47.817606Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "125",
+      "summary": "Alert 125 for Grace Lee",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-14T07:31:15.883386Z",
+      "acknowledged_at": "2026-08-14T08:28:04.639267Z",
+      "resolved_at": "2026-08-14T10:01:59.598939Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "126",
+      "summary": "Alert 126 for Grace Lee",
+      "severity": "low",
+      "status": "triggered",
+      "created_at": "2026-08-29T04:57:10.856450Z",
+      "acknowledged_at": "2026-08-29T05:55:05.465311Z",
+      "resolved_at": "2026-08-29T06:47:13.072914Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "127",
+      "summary": "Alert 127 for Grace Lee",
+      "severity": "high",
+      "status": "resolved",
+      "created_at": "2026-08-11T08:46:19.138493Z",
+      "acknowledged_at": "2026-08-11T09:53:06.266260Z",
+      "resolved_at": "2026-08-11T11:33:23.200101Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-2"
+      }
+    },
+    {
+      "id": "128",
+      "summary": "Alert 128 for Grace Lee",
+      "severity": "low",
+      "status": "triggered",
+      "created_at": "2026-08-14T20:26:41.673181Z",
+      "acknowledged_at": "2026-08-14T21:34:52.767338Z",
+      "resolved_at": "2026-08-14T23:20:32.789406Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "129",
+      "summary": "Alert 129 for Grace Lee",
+      "severity": "high",
+      "status": "triggered",
+      "created_at": "2026-08-21T10:57:17.413099Z",
+      "acknowledged_at": "2026-08-21T12:05:16.449577Z",
+      "resolved_at": "2026-08-21T13:27:18.006331Z",
+      "assignee": {
+        "id": "P1006",
+        "name": "Grace Lee",
+        "email": "grace.lee@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-3"
+      }
+    },
+    {
+      "id": "130",
+      "summary": "Alert 130 for Henry Patel",
+      "severity": "low",
+      "status": "resolved",
+      "created_at": "2026-08-25T08:03:58.649809Z",
+      "acknowledged_at": "2026-08-25T08:41:41.579573Z",
+      "resolved_at": "2026-08-25T10:26:13.237989Z",
+      "assignee": {
+        "id": "P1007",
+        "name": "Henry Patel",
+        "email": "henry.patel@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "131",
+      "summary": "Alert 131 for Henry Patel",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-07-31T20:38:33.478815Z",
+      "acknowledged_at": "2026-07-31T21:05:24.351547Z",
+      "resolved_at": "2026-07-31T22:24:50.014258Z",
+      "assignee": {
+        "id": "P1007",
+        "name": "Henry Patel",
+        "email": "henry.patel@company.com"
+      },
+      "service": {
+        "id": "S1",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "132",
+      "summary": "Alert 132 for Henry Patel",
+      "severity": "critical",
+      "status": "resolved",
+      "created_at": "2026-08-29T03:11:54.403584Z",
+      "acknowledged_at": "2026-08-29T03:50:01.501865Z",
+      "resolved_at": "2026-08-29T05:17:27.181339Z",
+      "assignee": {
+        "id": "P1007",
+        "name": "Henry Patel",
+        "email": "henry.patel@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-1"
+      }
+    },
+    {
+      "id": "133",
+      "summary": "Alert 133 for Henry Patel",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-01T03:54:31.602847Z",
+      "acknowledged_at": "2026-08-01T04:34:04.369021Z",
+      "resolved_at": "2026-08-01T05:16:20.596342Z",
+      "assignee": {
+        "id": "P1007",
+        "name": "Henry Patel",
+        "email": "henry.patel@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "134",
+      "summary": "Alert 134 for Henry Patel",
+      "severity": "high",
+      "status": "triggered",
+      "created_at": "2026-08-12T03:28:21.145381Z",
+      "acknowledged_at": "2026-08-12T04:07:04.474269Z",
+      "resolved_at": "2026-08-12T04:36:52.849718Z",
+      "assignee": {
+        "id": "P1007",
+        "name": "Henry Patel",
+        "email": "henry.patel@company.com"
+      },
+      "service": {
+        "id": "S4",
+        "name": "service-5"
+      }
+    },
+    {
+      "id": "135",
+      "summary": "Alert 135 for Henry Patel",
+      "severity": "high",
+      "status": "resolved",
+      "created_at": "2026-08-20T06:39:07.843299Z",
+      "acknowledged_at": "2026-08-20T07:15:58.923877Z",
+      "resolved_at": "2026-08-20T08:30:07.760939Z",
+      "assignee": {
+        "id": "P1007",
+        "name": "Henry Patel",
+        "email": "henry.patel@company.com"
+      },
+      "service": {
+        "id": "S3",
+        "name": "service-4"
+      }
+    },
+    {
+      "id": "136",
+      "summary": "Alert 136 for Henry Patel",
+      "severity": "medium",
+      "status": "resolved",
+      "created_at": "2026-08-07T10:37:49.839585Z",
+      "acknowledged_at": "2026-08-07T11:08:14.948823Z",
+      "resolved_at": "2026-08-07T12:46:45.527131Z",
+      "assignee": {
+        "id": "P1007",
+        "name": "Henry Patel",
+        "email": "henry.patel@company.com"
+      },
+      "service": {
+        "id": "S2",
+        "name": "service-1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,956 @@
+{
+  "schedules": [
+    {
+      "id": "SCH100",
+      "name": "Primary Rotation 1",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-06T09:35:41.524044Z",
+            "end": "2026-08-11T09:35:41.524044Z",
+            "user": {
+              "id": "P1000",
+              "name": "Alice Chen",
+              "email": "alice.chen@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH101",
+      "name": "Primary Rotation 1",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-16T09:35:41.524044Z",
+            "end": "2026-08-22T09:35:41.524044Z",
+            "user": {
+              "id": "P1000",
+              "name": "Alice Chen",
+              "email": "alice.chen@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH102",
+      "name": "Primary Rotation 1",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-29T09:35:41.524044Z",
+            "end": "2026-09-04T09:35:41.524044Z",
+            "user": {
+              "id": "P1000",
+              "name": "Alice Chen",
+              "email": "alice.chen@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH103",
+      "name": "Primary Rotation 1",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-09T09:35:41.524044Z",
+            "end": "2026-09-13T09:35:41.524044Z",
+            "user": {
+              "id": "P1000",
+              "name": "Alice Chen",
+              "email": "alice.chen@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH104",
+      "name": "Primary Rotation 1",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-18T09:35:41.524044Z",
+            "end": "2026-09-20T09:35:41.524044Z",
+            "user": {
+              "id": "P1000",
+              "name": "Alice Chen",
+              "email": "alice.chen@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH105",
+      "name": "Primary Rotation 1",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-27T09:35:41.524044Z",
+            "end": "2026-10-04T09:35:41.524044Z",
+            "user": {
+              "id": "P1000",
+              "name": "Alice Chen",
+              "email": "alice.chen@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH106",
+      "name": "Primary Rotation 1",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-10-12T09:35:41.524044Z",
+            "end": "2026-10-13T09:35:41.524044Z",
+            "user": {
+              "id": "P1000",
+              "name": "Alice Chen",
+              "email": "alice.chen@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH107",
+      "name": "Primary Rotation 1",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-10-17T09:35:41.524044Z",
+            "end": "2026-10-21T09:35:41.524044Z",
+            "user": {
+              "id": "P1000",
+              "name": "Alice Chen",
+              "email": "alice.chen@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH108",
+      "name": "Primary Rotation 1",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-10-31T09:35:41.524044Z",
+            "end": "2026-11-03T09:35:41.524044Z",
+            "user": {
+              "id": "P1000",
+              "name": "Alice Chen",
+              "email": "alice.chen@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH109",
+      "name": "Primary Rotation 1",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-11-13T09:35:41.524044Z",
+            "end": "2026-11-16T09:35:41.524044Z",
+            "user": {
+              "id": "P1000",
+              "name": "Alice Chen",
+              "email": "alice.chen@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH110",
+      "name": "Primary Rotation 2",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-06T15:05:23.836308Z",
+            "end": "2026-08-12T15:05:23.836308Z",
+            "user": {
+              "id": "P1001",
+              "name": "Bob Martinez",
+              "email": "bob.martinez@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH111",
+      "name": "Primary Rotation 2",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-19T15:05:23.836308Z",
+            "end": "2026-08-22T15:05:23.836308Z",
+            "user": {
+              "id": "P1001",
+              "name": "Bob Martinez",
+              "email": "bob.martinez@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH112",
+      "name": "Primary Rotation 2",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-23T15:05:23.836308Z",
+            "end": "2026-08-28T15:05:23.836308Z",
+            "user": {
+              "id": "P1001",
+              "name": "Bob Martinez",
+              "email": "bob.martinez@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH120",
+      "name": "Primary Rotation 3",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-05T14:42:43.978558Z",
+            "end": "2026-08-08T14:42:43.978558Z",
+            "user": {
+              "id": "P1002",
+              "name": "Carol Singh",
+              "email": "carol.singh@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH121",
+      "name": "Primary Rotation 3",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-12T14:42:43.978558Z",
+            "end": "2026-08-17T14:42:43.978558Z",
+            "user": {
+              "id": "P1002",
+              "name": "Carol Singh",
+              "email": "carol.singh@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH122",
+      "name": "Primary Rotation 3",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-23T14:42:43.978558Z",
+            "end": "2026-08-25T14:42:43.978558Z",
+            "user": {
+              "id": "P1002",
+              "name": "Carol Singh",
+              "email": "carol.singh@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH123",
+      "name": "Primary Rotation 3",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-29T14:42:43.978558Z",
+            "end": "2026-09-03T14:42:43.978558Z",
+            "user": {
+              "id": "P1002",
+              "name": "Carol Singh",
+              "email": "carol.singh@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH124",
+      "name": "Primary Rotation 3",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-08T14:42:43.978558Z",
+            "end": "2026-09-14T14:42:43.978558Z",
+            "user": {
+              "id": "P1002",
+              "name": "Carol Singh",
+              "email": "carol.singh@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH125",
+      "name": "Primary Rotation 3",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-17T14:42:43.978558Z",
+            "end": "2026-09-23T14:42:43.978558Z",
+            "user": {
+              "id": "P1002",
+              "name": "Carol Singh",
+              "email": "carol.singh@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH126",
+      "name": "Primary Rotation 3",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-25T14:42:43.978558Z",
+            "end": "2026-10-01T14:42:43.978558Z",
+            "user": {
+              "id": "P1002",
+              "name": "Carol Singh",
+              "email": "carol.singh@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH127",
+      "name": "Primary Rotation 3",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-10-02T14:42:43.978558Z",
+            "end": "2026-10-05T14:42:43.978558Z",
+            "user": {
+              "id": "P1002",
+              "name": "Carol Singh",
+              "email": "carol.singh@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH128",
+      "name": "Primary Rotation 3",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-10-13T14:42:43.978558Z",
+            "end": "2026-10-14T14:42:43.978558Z",
+            "user": {
+              "id": "P1002",
+              "name": "Carol Singh",
+              "email": "carol.singh@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH129",
+      "name": "Primary Rotation 3",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-10-24T14:42:43.978558Z",
+            "end": "2026-10-27T14:42:43.978558Z",
+            "user": {
+              "id": "P1002",
+              "name": "Carol Singh",
+              "email": "carol.singh@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH130",
+      "name": "Primary Rotation 4",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-06T03:36:45.912927Z",
+            "end": "2026-08-09T03:36:45.912927Z",
+            "user": {
+              "id": "P1003",
+              "name": "David Kim",
+              "email": "david.kim@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH131",
+      "name": "Primary Rotation 4",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-16T03:36:45.912927Z",
+            "end": "2026-08-18T03:36:45.912927Z",
+            "user": {
+              "id": "P1003",
+              "name": "David Kim",
+              "email": "david.kim@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH132",
+      "name": "Primary Rotation 4",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-22T03:36:45.912927Z",
+            "end": "2026-08-24T03:36:45.912927Z",
+            "user": {
+              "id": "P1003",
+              "name": "David Kim",
+              "email": "david.kim@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH133",
+      "name": "Primary Rotation 4",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-02T03:36:45.912927Z",
+            "end": "2026-09-05T03:36:45.912927Z",
+            "user": {
+              "id": "P1003",
+              "name": "David Kim",
+              "email": "david.kim@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH140",
+      "name": "Primary Rotation 5",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-05T14:18:52.852350Z",
+            "end": "2026-08-08T14:18:52.852350Z",
+            "user": {
+              "id": "P1004",
+              "name": "Eva Rodriguez",
+              "email": "eva.rodriguez@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH141",
+      "name": "Primary Rotation 5",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-16T14:18:52.852350Z",
+            "end": "2026-08-23T14:18:52.852350Z",
+            "user": {
+              "id": "P1004",
+              "name": "Eva Rodriguez",
+              "email": "eva.rodriguez@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH142",
+      "name": "Primary Rotation 5",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-28T14:18:52.852350Z",
+            "end": "2026-09-03T14:18:52.852350Z",
+            "user": {
+              "id": "P1004",
+              "name": "Eva Rodriguez",
+              "email": "eva.rodriguez@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH143",
+      "name": "Primary Rotation 5",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-09T14:18:52.852350Z",
+            "end": "2026-09-16T14:18:52.852350Z",
+            "user": {
+              "id": "P1004",
+              "name": "Eva Rodriguez",
+              "email": "eva.rodriguez@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH144",
+      "name": "Primary Rotation 5",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-18T14:18:52.852350Z",
+            "end": "2026-09-22T14:18:52.852350Z",
+            "user": {
+              "id": "P1004",
+              "name": "Eva Rodriguez",
+              "email": "eva.rodriguez@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH145",
+      "name": "Primary Rotation 5",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-24T14:18:52.852350Z",
+            "end": "2026-09-26T14:18:52.852350Z",
+            "user": {
+              "id": "P1004",
+              "name": "Eva Rodriguez",
+              "email": "eva.rodriguez@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH146",
+      "name": "Primary Rotation 5",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-30T14:18:52.852350Z",
+            "end": "2026-10-07T14:18:52.852350Z",
+            "user": {
+              "id": "P1004",
+              "name": "Eva Rodriguez",
+              "email": "eva.rodriguez@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH150",
+      "name": "Primary Rotation 6",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-07-31T09:57:58.191180Z",
+            "end": "2026-08-04T09:57:58.191180Z",
+            "user": {
+              "id": "P1005",
+              "name": "Frank Thompson",
+              "email": "frank.thompson@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH151",
+      "name": "Primary Rotation 6",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-05T09:57:58.191180Z",
+            "end": "2026-08-08T09:57:58.191180Z",
+            "user": {
+              "id": "P1005",
+              "name": "Frank Thompson",
+              "email": "frank.thompson@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH152",
+      "name": "Primary Rotation 6",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-17T09:57:58.191180Z",
+            "end": "2026-08-18T09:57:58.191180Z",
+            "user": {
+              "id": "P1005",
+              "name": "Frank Thompson",
+              "email": "frank.thompson@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH153",
+      "name": "Primary Rotation 6",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-26T09:57:58.191180Z",
+            "end": "2026-08-29T09:57:58.191180Z",
+            "user": {
+              "id": "P1005",
+              "name": "Frank Thompson",
+              "email": "frank.thompson@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH154",
+      "name": "Primary Rotation 6",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-03T09:57:58.191180Z",
+            "end": "2026-09-08T09:57:58.191180Z",
+            "user": {
+              "id": "P1005",
+              "name": "Frank Thompson",
+              "email": "frank.thompson@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH155",
+      "name": "Primary Rotation 6",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-15T09:57:58.191180Z",
+            "end": "2026-09-22T09:57:58.191180Z",
+            "user": {
+              "id": "P1005",
+              "name": "Frank Thompson",
+              "email": "frank.thompson@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH156",
+      "name": "Primary Rotation 6",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-28T09:57:58.191180Z",
+            "end": "2026-09-29T09:57:58.191180Z",
+            "user": {
+              "id": "P1005",
+              "name": "Frank Thompson",
+              "email": "frank.thompson@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH157",
+      "name": "Primary Rotation 6",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-10-03T09:57:58.191180Z",
+            "end": "2026-10-07T09:57:58.191180Z",
+            "user": {
+              "id": "P1005",
+              "name": "Frank Thompson",
+              "email": "frank.thompson@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH160",
+      "name": "Primary Rotation 7",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-06T04:33:29.785644Z",
+            "end": "2026-08-08T04:33:29.785644Z",
+            "user": {
+              "id": "P1006",
+              "name": "Grace Lee",
+              "email": "grace.lee@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH161",
+      "name": "Primary Rotation 7",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-10T04:33:29.785644Z",
+            "end": "2026-08-16T04:33:29.785644Z",
+            "user": {
+              "id": "P1006",
+              "name": "Grace Lee",
+              "email": "grace.lee@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH162",
+      "name": "Primary Rotation 7",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-24T04:33:29.785644Z",
+            "end": "2026-08-30T04:33:29.785644Z",
+            "user": {
+              "id": "P1006",
+              "name": "Grace Lee",
+              "email": "grace.lee@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH163",
+      "name": "Primary Rotation 7",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-04T04:33:29.785644Z",
+            "end": "2026-09-10T04:33:29.785644Z",
+            "user": {
+              "id": "P1006",
+              "name": "Grace Lee",
+              "email": "grace.lee@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH164",
+      "name": "Primary Rotation 7",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-17T04:33:29.785644Z",
+            "end": "2026-09-18T04:33:29.785644Z",
+            "user": {
+              "id": "P1006",
+              "name": "Grace Lee",
+              "email": "grace.lee@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH165",
+      "name": "Primary Rotation 7",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-21T04:33:29.785644Z",
+            "end": "2026-09-22T04:33:29.785644Z",
+            "user": {
+              "id": "P1006",
+              "name": "Grace Lee",
+              "email": "grace.lee@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH166",
+      "name": "Primary Rotation 7",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-23T04:33:29.785644Z",
+            "end": "2026-09-26T04:33:29.785644Z",
+            "user": {
+              "id": "P1006",
+              "name": "Grace Lee",
+              "email": "grace.lee@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH167",
+      "name": "Primary Rotation 7",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-10-04T04:33:29.785644Z",
+            "end": "2026-10-05T04:33:29.785644Z",
+            "user": {
+              "id": "P1006",
+              "name": "Grace Lee",
+              "email": "grace.lee@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH170",
+      "name": "Primary Rotation 8",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-05T23:51:17.441834Z",
+            "end": "2026-08-07T23:51:17.441834Z",
+            "user": {
+              "id": "P1007",
+              "name": "Henry Patel",
+              "email": "henry.patel@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH171",
+      "name": "Primary Rotation 8",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-14T23:51:17.441834Z",
+            "end": "2026-08-18T23:51:17.441834Z",
+            "user": {
+              "id": "P1007",
+              "name": "Henry Patel",
+              "email": "henry.patel@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH172",
+      "name": "Primary Rotation 8",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-08-24T23:51:17.441834Z",
+            "end": "2026-08-30T23:51:17.441834Z",
+            "user": {
+              "id": "P1007",
+              "name": "Henry Patel",
+              "email": "henry.patel@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH173",
+      "name": "Primary Rotation 8",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-08T23:51:17.441834Z",
+            "end": "2026-09-12T23:51:17.441834Z",
+            "user": {
+              "id": "P1007",
+              "name": "Henry Patel",
+              "email": "henry.patel@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH174",
+      "name": "Primary Rotation 8",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-09-22T23:51:17.441834Z",
+            "end": "2026-09-28T23:51:17.441834Z",
+            "user": {
+              "id": "P1007",
+              "name": "Henry Patel",
+              "email": "henry.patel@company.com"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "SCH175",
+      "name": "Primary Rotation 8",
+      "final_schedule": {
+        "rendered_schedule_entries": [
+          {
+            "start": "2026-10-01T23:51:17.441834Z",
+            "end": "2026-10-05T23:51:17.441834Z",
+            "user": {
+              "id": "P1007",
+              "name": "Henry Patel",
+              "email": "henry.patel@company.com"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
